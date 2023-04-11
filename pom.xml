@@ -156,7 +156,7 @@
               <encoding>UTF-8</encoding>
               <sourceDirectories>${basedir}</sourceDirectories>
               <includes>**/*</includes>
-              <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class,dependency-check-report.xml</excludes>
+              <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class,dependency-check-report.xml,**/report-task.txt</excludes>
             </configuration>
             <goals>
               <goal>check</goal>
